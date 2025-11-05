@@ -1,5 +1,5 @@
 # 👋 Hi, I'm Jagdish Salgotra  
-### Principal Engineer | Distributed Systems | Cloud-Native Architecture | Search & GenAI
+### Principal Engineer | Distributed Systems | Cloud-Native Architecture 
 
 I’m a Principal Engineer with 15+ years of experience designing **distributed, event-driven, and cloud-native systems** at scale.  
 Focused on **microservices**, **real-time analytics**, and **semantic search**, I build resilient, observable systems that empower engineering teams to move faster with confidence.
