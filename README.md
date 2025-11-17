@@ -27,7 +27,7 @@ Focused on **microservices**, **real-time analytics**, and **semantic search**, 
 A **production-grade e-commerce platform** demonstrating event-driven microservices, real-time order processing, and deep observability.  
 Built with **Java 25**, **Spring Boot 3.5**, **Kafka**, **Postgres**, **Redis**, and **Kubernetes**, it scales to **100K concurrent users** with **50K req/s throughput** and **99.99% uptime**.  
 
-🔗 [View Full Project →](https://github.com/jagdishsalgotra/EDEOFS)
+🔗 [View Full Project →](https://github.com/salgotraja/EDEOFS)
 
 ---
 
@@ -63,8 +63,8 @@ Built with **Java 25**, **Spring Boot 3.5**, **Kafka**, **Postgres**, **Redis**,
 
 ## 📬 Connect
 
-- 💼 [LinkedIn](https://linkedin.com/in/jagdishsalgotra)  
-- 💻 [GitHub](https://github.com/jagdishsalgotra)  
+- 💼 [LinkedIn](www.linkedin.com/in/jagdishsal)  
+- 💻 [GitHub](https://github.com/salgotraja)  
 - 📧 [jagdishsal@gmail.com](mailto:jagdishsal@gmail.com)
 
 ---
