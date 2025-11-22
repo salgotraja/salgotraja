@@ -21,7 +21,7 @@ Focused on **microservices**, **real-time analytics**, and **semantic search**, 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ---
-
+<!--
 ## 🧱 Featured Project – Event-Driven E-Commerce Order Fulfillment System (EDEOFS)
 
 A **production-grade e-commerce platform** demonstrating event-driven microservices, real-time order processing, and deep observability.  
@@ -39,7 +39,7 @@ Built with **Java 25**, **Spring Boot 3.5**, **Kafka**, **Postgres**, **Redis**,
 - **📝 Next.js Blog** — architecture, system design, and cloud-native writing hub  
 
 ---
-
+-->
 ## 🔭 Currently Exploring
 
 - **LLMs & Vector Databases** — LangChain, Pinecone, hybrid semantic retrieval  
