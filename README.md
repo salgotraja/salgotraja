@@ -65,7 +65,7 @@ Built with **Java 25**, **Spring Boot 3.5**, **Kafka**, **Postgres**, **Redis**,
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/jagdishsal)  
 - 💻 [GitHub](https://github.com/salgotraja)  
-- 📧 [jagdishsal@gmail.com](mailto:jagdishsal@gmail.com)
+- 📧 [Mail](mailto:jagdishsal@gmail.com)
 
 ---
 
