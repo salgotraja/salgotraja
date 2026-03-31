@@ -20,7 +20,6 @@ Focused on **microservices**, **real-time analytics**, **Kafka**, **OpenSearch**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ---
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=salgotraja&theme=radical&column=3&margin-w=15&margin-h=15&no-bg=true)
 ![Jagdish's GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=salgotraja&show_icons=true&theme=radical&hide_title=true)
 ![Top Languages](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=salgotraja&layout=compact&theme=radical&hide_title=true)
 
