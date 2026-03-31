@@ -40,8 +40,17 @@ Focused on **microservices**, **real-time analytics**, **Kafka**, **OpenSearch**
 ---
 
 ## ✍️ Latest from My Blog
-Deep dives on modern Java, concurrency, and cloud-native architecture → **[engnotes.dev](https://engnotes.dev)**
 
+- **[Timeout Patterns and Partial Results in Java 21](https://engnotes.dev/structured-concurrency/timeout-patterns-and-partial-results-in-java-21)**  
+  *Mar 30, 2026* — Master structured concurrency for enforcing SLAs, handling partial results, and safe cancellation in distributed systems.
+
+- **[Introduction to Structured Concurrency in Java 21](https://engnotes.dev/structured-concurrency/introduction-to-structured-concurrency-in-java-21)**  
+  *Mar 22, 2026* — Complete guide to `StructuredTaskScope`, scope-based task orchestration, predictable cancellation, and preview setup.
+
+- **[Migrating Project Loom Code from Java 21 to Java 25](https://engnotes.dev/project-loom/migrating-project-loom-code-from-java-21-to-java-25)**  
+  *Aug 31, 2025* — Everything that changed for virtual threads, redesigned structured concurrency APIs, scoped values, and migration patterns.
+
+→ **[Read more on engnotes.dev →](https://engnotes.dev)**
 ---
 
 ## 🔭 Currently Exploring
