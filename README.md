@@ -42,7 +42,7 @@ Focused on **microservices**, **real-time analytics**, **Kafka**, **OpenSearch**
 ## ✍️ Latest from My Blog
 
 - **[Conditional Cancellation and Circuit Breaker Patterns in Java 21](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-conditional-cancellation-and-circuit-breaker-patterns-part-3)**  
-  *Apr 06, 2026* - Master structured concurrency for enforcing SLAs, handling partial results, and safe cancellation in distributed systems.
+  *Apr 06, 2026* - Build resilient Java services using conditional cancellation and circuit breaker patterns. Learn to fail fast, stop early, and implement sophisticated fault-tolerance mechanisms.
 
 - **[Timeout Patterns and Partial Results in Java 21](https://engnotes.dev/structured-concurrency/timeout-patterns-and-partial-results-in-java-21)**  
   *Mar 30, 2026* - Master structured concurrency for enforcing SLAs, handling partial results, and safe cancellation in distributed systems.
