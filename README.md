@@ -18,7 +18,7 @@ Focused on **microservices**, **real-time analytics**, **Kafka**, **OpenSearch**
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Rust](https://shields.io/badge/-Rust-3776AB?style=for-the-badge&logo=rust&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 
 ---
 ![Jagdish's GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=salgotraja&show_icons=true&theme=radical&hide_title=true)
