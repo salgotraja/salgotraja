@@ -3,7 +3,7 @@
 ### Principal Engineer | Distributed Systems | Cloud-Native Architecture
 
 I’m a Principal Engineer with 15+ years of experience designing **distributed, event-driven, and cloud-native systems** at scale.  
-Focused on **microservices**, **real-time analytics**, **Kafka**, **OpenSearch**, and **observability**, I build resilient, observable systems that empower engineering teams to move faster with confidence.
+Focused on **microservices**, **real-time analytics**, **Kafka**, **OpenSearch**, **GenAI**, and **observability**, I build resilient, observable systems that empower engineering teams to move faster with confidence.
 
 ---
 
@@ -21,16 +21,17 @@ Focused on **microservices**, **real-time analytics**, **Kafka**, **OpenSearch**
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 
 ---
+
 ![Jagdish's GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=salgotraja&show_icons=true&theme=radical&hide_title=true)
 ![Top Languages](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=salgotraja&layout=compact&theme=radical&hide_title=true)
 
 ---
 
-## 🧱 Featured Project - Real-Time Event Streaming Platform
+## 🧱 Featured Project – Real-Time Event Streaming Platform
 
-**springboot-kafka-observability** - Production-grade event-driven system that consumes Wikimedia recent changes (SSE) → Kafka → MongoDB with **full observability stack**.
+**springboot-kafka-observability** — Production-grade event-driven system that consumes Wikimedia recent changes (SSE) → Kafka → MongoDB with **full observability stack**.
 
-- Java 25 + Spring Boot 4 + WebFlux (reactive)
+- Java 21+ + Spring Boot + WebFlux (reactive)
 - Kafka consumer groups + Dead Letter Queue (Kafka + MongoDB)
 - OpenTelemetry + Prometheus + Grafana + Loki + Tempo + Zipkin
 - Pre-built Grafana dashboards, custom metrics, and Alertmanager rules
@@ -42,34 +43,32 @@ Focused on **microservices**, **real-time analytics**, **Kafka**, **OpenSearch**
 
 ## ✍️ Latest from My Blog
 
+- **[Progressive Results and Hierarchical Task Management in Java 21](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-progressive-hierarchical-task-management-part-4)**  
+  *Apr 12, 2026* - Orchestrate complex Java workflows with progressive results and hierarchical task management.
+  
 - **[Conditional Cancellation and Circuit Breaker Patterns in Java 21](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-conditional-cancellation-and-circuit-breaker-patterns-part-3)**  
-  *Apr 06, 2026* - Build resilient Java services using conditional cancellation and circuit breaker patterns. Learn to fail fast, stop early, and implement sophisticated fault-tolerance mechanisms.
+  *Apr 06, 2026* — Build resilient Java services using conditional cancellation and circuit breaker patterns. Learn to fail fast, stop early, and implement sophisticated fault-tolerance mechanisms.
 
-- **[Timeout Patterns and Partial Results in Java 21](https://engnotes.dev/structured-concurrency/timeout-patterns-and-partial-results-in-java-21)**  
-  *Mar 30, 2026* - Master structured concurrency for enforcing SLAs, handling partial results, and safe cancellation in distributed systems.
-
-- **[Introduction to Structured Concurrency in Java 21](https://engnotes.dev/structured-concurrency/introduction-to-structured-concurrency-in-java-21)**  
-  *Mar 22, 2026* - Complete guide to `StructuredTaskScope`, scope-based task orchestration, predictable cancellation, and preview setup.
-
-- **[Migrating Project Loom Code from Java 21 to Java 25](https://engnotes.dev/project-loom/migrating-project-loom-code-from-java-21-to-java-25)**  
-  *Aug 31, 2025* - Everything that changed for virtual threads, redesigned structured concurrency APIs, scoped values, and migration patterns.
+- **[Timeout Patterns and Partial Results in Java 21](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-timeout-patterns-java-part-2)**  
+  *Mar 30, 2026* — Master structured concurrency for enforcing SLAs, handling partial results, and safe cancellation in distributed systems.
 
 → **[Read more on engnotes.dev →](https://engnotes.dev)**
+
 ---
 
 ## 🔭 Currently Exploring
-- **LLMs & Vector Databases** - LangChain, Pinecone, hybrid semantic retrieval
-- **eBPF Observability** - low-level tracing for performance bottlenecks
-- **Service Meshes** - Istio and Linkerd for secure communication
+- **LLMs & Vector Databases** — LangChain, Pinecone, hybrid semantic retrieval
+- **eBPF Observability** — low-level tracing for performance bottlenecks
+- **Service Meshes** — Istio and Linkerd for secure communication
 
 ---
 
 ## 🧠 Engineering Philosophy
-> “Scalability isn’t just about handling load - it’s about clarity, composability, and enabling teams to move fast without breaking things.”
+> “Scalability isn’t just about handling load — it’s about clarity, composability, and enabling teams to move fast without breaking things.”
 
-- Design **observable-first systems** - metrics, traces, logs from day one.
+- Design **observable-first systems** — metrics, traces, logs from day one.
 - Prefer **event-driven boundaries** for loose coupling and resilience.
-- Prioritize **operational simplicity** - automation over firefighting.
+- Prioritize **operational simplicity** — automation over firefighting.
 - Lead by **mentoring and documenting**, not micromanaging.
 
 ---
