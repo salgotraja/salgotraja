@@ -43,6 +43,9 @@ Focused on **microservices**, **real-time analytics**, **Kafka**, **OpenSearch**
 
 ## ✍️ Latest from My Blog
 
+- **[Resource-Aware Scheduling with Structured Concurrency in Java 21](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-resource-aware-scheduling-bulkhead-patterns-part-5)**  
+  *Apr 19, 2026* - Master resource-aware scheduling and bulkhead isolation in Java structured concurrency. Learn CPU/memory-aware throttling, adaptive concurrency, and workload isolation patterns using StructuredTaskScope and virtual threads.
+
 - **[Progressive Results and Hierarchical Task Management in Java 21](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-progressive-hierarchical-task-management-part-4)**  
   *Apr 12, 2026* - Orchestrate complex Java workflows with progressive results and hierarchical task management.
   
