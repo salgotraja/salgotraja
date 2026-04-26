@@ -43,6 +43,9 @@ Focused on **microservices**, **real-time analytics**, **Kafka**, **OpenSearch**
 
 ## ✍️ Latest from My Blog
 
+- **[Composition Patterns and Best Practices in Java 21](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-advanced-patterns-best-practices-java-part-6)**  
+  *Apr 26, 2026* - Master the art of composing advanced concurrency patterns in Java. Learn to layer timeouts, retries, and circuit breakers, implement robust error handling, and write reliable tests for your high-performance structured concurrent systems.
+
 - **[Resource-Aware Scheduling with Structured Concurrency in Java 21](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-resource-aware-scheduling-bulkhead-patterns-part-5)**  
   *Apr 19, 2026* - Master resource-aware scheduling and bulkhead isolation in Java structured concurrency. Learn CPU/memory-aware throttling, adaptive concurrency, and workload isolation patterns using StructuredTaskScope and virtual threads.
 
@@ -51,9 +54,6 @@ Focused on **microservices**, **real-time analytics**, **Kafka**, **OpenSearch**
   
 - **[Conditional Cancellation and Circuit Breaker Patterns in Java 21](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-conditional-cancellation-and-circuit-breaker-patterns-part-3)**  
   *Apr 06, 2026* — Build resilient Java services using conditional cancellation and circuit breaker patterns. Learn to fail fast, stop early, and implement sophisticated fault-tolerance mechanisms.
-
-- **[Timeout Patterns and Partial Results in Java 21](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-timeout-patterns-java-part-2)**  
-  *Mar 30, 2026* — Master structured concurrency for enforcing SLAs, handling partial results, and safe cancellation in distributed systems.
 
 → **[Read more on engnotes.dev →](https://engnotes.dev)**
 
