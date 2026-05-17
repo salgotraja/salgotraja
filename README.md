@@ -43,17 +43,17 @@ Focused on **microservices**, **real-time analytics**, **Kafka**, **OpenSearch**
 
 ## ✍️ Latest from My Blog
 
-- **[Composition Patterns and Best Practices in Java 21](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-advanced-patterns-best-practices-java-part-6)**  
-  *Apr 26, 2026* - Master the art of composing advanced concurrency patterns in Java. Learn to layer timeouts, retries, and circuit breakers, implement robust error handling, and write reliable tests for your high-performance structured concurrent systems.
+- **[Migrating our fan-out service from Java 21 to Java 25](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-java-25-after-java-21-migration-part-9)**  
+  *May 17, 2026* - Most of the migration was mechanical. ShutdownOnFailure became a Joiner, throwIfFailed disappeared, and StructuredTaskScope.open replaced the constructor. Two things were not mechanical, and those are the ones worth reading.
 
-- **[Resource-Aware Scheduling with Structured Concurrency in Java 21](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-resource-aware-scheduling-bulkhead-patterns-part-5)**  
-  *Apr 19, 2026* - Master resource-aware scheduling and bulkhead isolation in Java structured concurrency. Learn CPU/memory-aware throttling, adaptive concurrency, and workload isolation patterns using StructuredTaskScope and virtual threads.
+- **[Four operational checks we run on every StructuredTaskScope](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-production-considerations-part-8)**  
+  *May 10, 2026* - Before a fan-out service can be trusted under load, four things need to be true: outcomes counted per scope, deadlines propagated, bulkheads in place, and pinning watched in JFR. What each one looks like in code.
 
-- **[Progressive Results and Hierarchical Task Management in Java 21](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-progressive-hierarchical-task-management-part-4)**  
-  *Apr 12, 2026* - Orchestrate complex Java workflows with progressive results and hierarchical task management.
+- **[Three structured-concurrency patterns we run in a fan-out service](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-advanced-structured-concurrency-patterns-part-7)**  
+  *May 04, 2026* - Structured concurrency patterns are worth the complexity only when the cancellation policy is decided before the first fork, not after the first timeout. The three we run: aggregation on quorum, bulkheading per tenant, and a deadline shape that protects against one slow upstream.
   
-- **[Conditional Cancellation and Circuit Breaker Patterns in Java 21](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-conditional-cancellation-and-circuit-breaker-patterns-part-3)**  
-  *Apr 06, 2026* — Build resilient Java services using conditional cancellation and circuit breaker patterns. Learn to fail fast, stop early, and implement sophisticated fault-tolerance mechanisms.
+- **[Composing resilience policies as separable layers](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-advanced-patterns-best-practices-java-part-6)**  
+  *Apr 26, 2026* — Resilience composition in structured concurrency comes down to one rule: keep each policy a separable layer that fires visibly in logs, or rebuild the complexity you were trying to remove.
 
 → **[Read more on engnotes.dev →](https://engnotes.dev)**
 
