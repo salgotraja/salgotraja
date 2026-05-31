@@ -43,6 +43,9 @@ Focused on **microservices**, **real-time analytics**, **Kafka**, **OpenSearch**
 
 ## ✍️ Latest from My Blog
 
+- **[Why Average Latency Lies](https://engnotes.dev/blog/tail-latency-system-behavior/part-1-why-average-latency-lies)**  
+  *May 31, 2026* — A deterministic Java simulation where baseline p99=34ms becomes fan-out p99=597ms without changing the downstream latency sampler. Average latency is structurally incapable of catching that tail pain.
+
 - **[Migrating our fan-out service from Java 21 to Java 25](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-java-25-after-java-21-migration-part-9)**  
   *May 17, 2026* - Most of the migration was mechanical. ShutdownOnFailure became a Joiner, throwIfFailed disappeared, and StructuredTaskScope.open replaced the constructor. Two things were not mechanical, and those are the ones worth reading.
 
@@ -51,9 +54,6 @@ Focused on **microservices**, **real-time analytics**, **Kafka**, **OpenSearch**
 
 - **[Three structured-concurrency patterns we run in a fan-out service](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-advanced-structured-concurrency-patterns-part-7)**  
   *May 04, 2026* - Structured concurrency patterns are worth the complexity only when the cancellation policy is decided before the first fork, not after the first timeout. The three we run: aggregation on quorum, bulkheading per tenant, and a deadline shape that protects against one slow upstream.
-  
-- **[Composing resilience policies as separable layers](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-advanced-patterns-best-practices-java-part-6)**  
-  *Apr 26, 2026* — Resilience composition in structured concurrency comes down to one rule: keep each policy a separable layer that fires visibly in logs, or rebuild the complexity you were trying to remove.
 
 → **[Read more on engnotes.dev →](https://engnotes.dev)**
 
