@@ -43,17 +43,17 @@ Focused on **microservices**, **real-time analytics**, **Kafka**, **OpenSearch**
 
 ## ✍️ Latest from My Blog
 
-- **[Why Average Latency Lies](https://engnotes.dev/blog/tail-latency-system-behavior/part-1-why-average-latency-lies)**  
+- **[Queueing Theory for Engineers](https://engnotes.dev/blog/tail-latency-system-behavior/part-2-queueing-theory-for-engineers?utm_source=github&utm_medium=social&utm_campaign=part-2-queueing-theory&utm_content=profile)**  
+  *Jun 07, 2026* — A deterministic Java queueing simulation where p99 stays at 10ms through rho=1.00, then jumps to 109ms at rho=1.05 and 605ms at rho=1.30 while service time stays fixed.
+  
+- **[Why Average Latency Lies](https://engnotes.dev/blog/tail-latency-system-behavior/part-1-why-average-latency-lies?utm_source=github&utm_medium=social&utm_campaign=part-1-average-latency&utm_content=profile)**  
   *May 31, 2026* — A deterministic Java simulation where baseline p99=34ms becomes fan-out p99=597ms without changing the downstream latency sampler. Average latency is structurally incapable of catching that tail pain.
 
-- **[Migrating our fan-out service from Java 21 to Java 25](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-java-25-after-java-21-migration-part-9)**  
+- **[Migrating our fan-out service from Java 21 to Java 25](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-java-25-after-java-21-migration-part-9?utm_source=github&utm_medium=social&utm_campaign=java-25-after-java-21&utm_content=profile)**  
   *May 17, 2026* - Most of the migration was mechanical. ShutdownOnFailure became a Joiner, throwIfFailed disappeared, and StructuredTaskScope.open replaced the constructor. Two things were not mechanical, and those are the ones worth reading.
 
-- **[Four operational checks we run on every StructuredTaskScope](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-production-considerations-part-8)**  
+- **[Four operational checks we run on every StructuredTaskScope](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-production-considerations-part-8?utm_source=github&utm_medium=social&utm_campaign=production-considerations&utm_content=profile)**  
   *May 10, 2026* - Before a fan-out service can be trusted under load, four things need to be true: outcomes counted per scope, deadlines propagated, bulkheads in place, and pinning watched in JFR. What each one looks like in code.
-
-- **[Three structured-concurrency patterns we run in a fan-out service](https://engnotes.dev/blog/structured-concurrency/structured-concurrency-advanced-structured-concurrency-patterns-part-7)**  
-  *May 04, 2026* - Structured concurrency patterns are worth the complexity only when the cancellation policy is decided before the first fork, not after the first timeout. The three we run: aggregation on quorum, bulkheading per tenant, and a deadline shape that protects against one slow upstream.
 
 → **[Read more on engnotes.dev →](https://engnotes.dev)**
 
