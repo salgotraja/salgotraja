@@ -43,7 +43,7 @@ Focused on **microservices**, **real-time analytics**, **Kafka**, **OpenSearch**
 
 ## ✍️ Latest from My Blog
 
-- **[Queueing Theory for Engineers](https://engnotes.dev/blog/tail-latency-system-behavior/part-3-hedged-requests-and-speculative-execution?utm_source=github&utm_medium=social&utm_campaign=part-3-hedged-requests&utm_content=profile)**  
+- **[Hedged Requests & Speculative Execution](https://engnotes.dev/blog/tail-latency-system-behavior/part-3-hedged-requests-and-speculative-execution?utm_source=github&utm_medium=social&utm_campaign=part-3-hedged-requests&utm_content=profile)**  
   *Jun 14, 2026* — A deterministic Java hedging simulation where a p95 threshold cuts p99 from 200ms to 43ms for 3.7% extra load, while a p99 threshold improves nothing and burns the most wasted work. Hedging is a latency technique you buy with capacity.
 
 - **[Queueing Theory for Engineers](https://engnotes.dev/blog/tail-latency-system-behavior/part-2-queueing-theory-for-engineers?utm_source=github&utm_medium=social&utm_campaign=part-2-queueing-theory&utm_content=profile)**  
