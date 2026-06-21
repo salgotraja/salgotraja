@@ -44,16 +44,16 @@ Focused on **microservices**, **real-time analytics**, **Kafka**, **OpenSearch**
 ## ✍️ Latest from My Blog
 
 - **[The Coordinated Omission Problem](https://engnotes.dev/blog/tail-latency-system-behavior/part-4-the-coordinated-omission-problem?utm_source=github&utm_medium=social&utm_campaign=part-4-the-coordinated-omission-problem&utm_content=profile)**  
-  *Jun 21, 2026* — A deterministic Java measurement harness where a closed-loop benchmark reports a whole-run p99 of 10ms for a service that froze for 500ms, while open-loop scheduling and HdrHistogram's coordinated-omission correction both report 460ms from the same samples.
+  *Jun 21, 2026* - A deterministic Java measurement harness where a closed-loop benchmark reports a whole-run p99 of 10ms for a service that froze for 500ms, while open-loop scheduling and HdrHistogram's coordinated-omission correction both report 460ms from the same samples.
 
 - **[Hedged Requests & Speculative Execution](https://engnotes.dev/blog/tail-latency-system-behavior/part-3-hedged-requests-and-speculative-execution?utm_source=github&utm_medium=social&utm_campaign=part-3-hedged-requests&utm_content=profile)**  
-  *Jun 14, 2026* — A deterministic Java hedging simulation where a p95 threshold cuts p99 from 200ms to 43ms for 3.7% extra load, while a p99 threshold improves nothing and burns the most wasted work. Hedging is a latency technique you buy with capacity.
+  *Jun 14, 2026* - A deterministic Java hedging simulation where a p95 threshold cuts p99 from 200ms to 43ms for 3.7% extra load, while a p99 threshold improves nothing and burns the most wasted work. Hedging is a latency technique you buy with capacity.
 
 - **[Queueing Theory for Engineers](https://engnotes.dev/blog/tail-latency-system-behavior/part-2-queueing-theory-for-engineers?utm_source=github&utm_medium=social&utm_campaign=part-2-queueing-theory&utm_content=profile)**  
-  *Jun 07, 2026* — A deterministic Java queueing simulation where p99 stays at 10ms through rho=1.00, then jumps to 109ms at rho=1.05 and 605ms at rho=1.30 while service time stays fixed.
+  *Jun 07, 2026* - A deterministic Java queueing simulation where p99 stays at 10ms through rho=1.00, then jumps to 109ms at rho=1.05 and 605ms at rho=1.30 while service time stays fixed.
 
 - **[Why Average Latency Lies](https://engnotes.dev/blog/tail-latency-system-behavior/part-1-why-average-latency-lies?utm_source=github&utm_medium=social&utm_campaign=part-1-average-latency&utm_content=profile)**  
-  *May 31, 2026* — A deterministic Java simulation where baseline p99=34ms becomes fan-out p99=597ms without changing the downstream latency sampler. Average latency is structurally incapable of catching that tail pain.
+  *May 31, 2026* - A deterministic Java simulation where baseline p99=34ms becomes fan-out p99=597ms without changing the downstream latency sampler. Average latency is structurally incapable of catching that tail pain.
 
 → **[Read more on engnotes.dev →](https://engnotes.dev)**
 
