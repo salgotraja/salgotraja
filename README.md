@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Jagdish Salgotra
+# Hi, I'm Jagdish Salgotra
 
 ### Principal Engineer | Distributed Systems | Cloud-Native Architecture
 
@@ -7,7 +7,7 @@ Focused on **microservices**, **real-time analytics**, **Kafka**, **OpenSearch**
 
 ---
 
-### 🧰 Tech Toolbox
+### Tech Toolbox
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
@@ -27,7 +27,7 @@ Focused on **microservices**, **real-time analytics**, **Kafka**, **OpenSearch**
 
 ---
 
-## 🧱 Featured Project – Real-Time Event Streaming Platform
+## Featured Project – Real-Time Event Streaming Platform
 
 **springboot-kafka-observability** — Production-grade event-driven system that consumes Wikimedia recent changes (SSE) → Kafka → MongoDB with **full observability stack**.
 
@@ -37,11 +37,11 @@ Focused on **microservices**, **real-time analytics**, **Kafka**, **OpenSearch**
 - Pre-built Grafana dashboards, custom metrics, and Alertmanager rules
 - Real-time SSE & WebSocket dashboards
 
-🔗 [View Full Project →](https://github.com/salgotraja/springboot-kafka-observability)
+[View Full Project →](https://github.com/salgotraja/springboot-kafka-observability)
 
 ---
 
-## ✍️ Latest from My Blog
+## Latest from My Blog
 
 - **[The Coordinated Omission Problem](https://engnotes.dev/blog/tail-latency-system-behavior/part-4-the-coordinated-omission-problem?utm_source=github&utm_medium=social&utm_campaign=part-4-the-coordinated-omission-problem&utm_content=profile)**  
   *Jun 21, 2026* - A deterministic Java measurement harness where a closed-loop benchmark reports a whole-run p99 of 10ms for a service that froze for 500ms, while open-loop scheduling and HdrHistogram's coordinated-omission correction both report 460ms from the same samples.
@@ -59,14 +59,14 @@ Focused on **microservices**, **real-time analytics**, **Kafka**, **OpenSearch**
 
 ---
 
-## 🔭 Currently Exploring
+## Currently Exploring
 - **LLMs & Vector Databases** — LangChain, Pinecone, hybrid semantic retrieval
 - **eBPF Observability** — low-level tracing for performance bottlenecks
 - **Service Meshes** — Istio and Linkerd for secure communication
 
 ---
 
-## 🧠 Engineering Philosophy
+## Engineering Philosophy
 > “Scalability isn’t just about handling load — it’s about clarity, composability, and enabling teams to move fast without breaking things.”
 
 - Design **observable-first systems** — metrics, traces, logs from day one.
@@ -76,7 +76,7 @@ Focused on **microservices**, **real-time analytics**, **Kafka**, **OpenSearch**
 
 ---
 
-## 📬 Connect
+## Connect
 - 💼 [LinkedIn](https://www.linkedin.com/in/jagdishsal)
 - 🐦 [Twitter / X](https://twitter.com/salgotraja)
 - 🌐 [Blog](https://engnotes.dev)
