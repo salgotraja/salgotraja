@@ -1,28 +1,19 @@
 # Hi, I'm Jagdish Salgotra
 
-**Principal Engineer** focused on building scalable, observable, and resilient distributed systems, with a growing focus on practical AI and LLM applications.
+Principal Engineer focused on building scalable, observable, and resilient distributed systems, with hands-on work in serverless architectures and applied AI.
 
-I work at the intersection of high-scale systems and applied AI - combining strong foundations in distributed systems, event-driven architectures, and observability with hands-on work in RAG, local LLMs, and agentic systems.
-
----
-
-### What I Focus On
-
-- Designing high-throughput, low-latency distributed systems
-- Event-driven microservices and Kafka patterns
-- Production observability, platform engineering, and reliability
-- Building practical AI systems (RAG pipelines, local LLMs, and agent workflows)
-- Mentoring teams and driving technical excellence
+I design high-scale systems that combine strong backend foundations with practical AI capabilities including real-time data platforms and serverless LLM-powered applications on AWS.
 
 ---
 
-### Current Interests
+### Focus Areas
 
-- High-performance distributed systems and modern Java concurrency
+- Event-driven systems, Kafka, and real-time streaming applications
+- High-performance distributed systems, serverless architectures, and modern Java
 - Local LLMs, RAG architectures, and agentic systems
-- Vector databases and retrieval systems
-- Cost-efficient, self-hosted AI infrastructure
-- Observability for AI workloads
+- Vector databases and intelligent retrieval
+- Production observability and system reliability
+- Cost-efficient, self-hosted infrastructure
 
 ---
 
