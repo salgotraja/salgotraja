@@ -1,41 +1,68 @@
-# Hi, I'm Jagdish Salgotra
+# Hi, I am Jagdish Salgotra
 
-Principal Engineer focused on building scalable, observable, and resilient distributed systems, with hands-on work in serverless architectures and applied AI.
+Principal Engineer with 15 years building distributed systems that serve at scale and fail honestly.
 
-I design high-scale systems that combine strong backend foundations with practical AI capabilities including real-time data platforms and serverless LLM-powered applications on AWS.
+Currently building a serverless financial intelligence platform on AWS: real-time market data pipeline, LLM-generated watchlist
+insights via Bedrock Claude, and DPDP-aligned consent management.
 
----
+Stack: Java 25, Spring Boot, Lambda with SnapStart, Step Functions, Bedrock, DynamoDB, S3, CDK.
 
-### Focus Areas
-
-- Event-driven systems, Kafka, and real-time streaming applications
-- High-performance distributed systems, serverless architectures, and modern Java
-- Local LLMs, RAG architectures, and agentic systems
-- Vector databases and intelligent retrieval
-- Production observability and system reliability
-- Cost-efficient, self-hosted infrastructure
+I write about what I build at engnotes.dev, covering production systems benchmarks, Java concurrency, and applied AI in production.
 
 ---
 
-### Latest from My Blog
+## What I work on
 
-- **[The Coordinated Omission Problem](https://engnotes.dev/blog/tail-latency-system-behavior/part-4-the-coordinated-omission-problem?utm_source=github&utm_medium=social&utm_campaign=part-4-the-coordinated-omission-problem&utm_content=profile)**  
-  *Jun 21, 2026* - A deterministic Java measurement harness comparing closed-loop vs open-loop benchmarking and HdrHistogram’s coordinated omission correction.
+Distributed systems and event-driven architecture, designing for failure modes, not just happy paths.
 
-- **[Hedged Requests & Speculative Execution](https://engnotes.dev/blog/tail-latency-system-behavior/part-3-hedged-requests-and-speculative-execution?utm_source=github&utm_medium=social&utm_campaign=part-3-hedged-requests&utm_content=profile)**  
-  *Jun 14, 2026* - A Java hedging simulation showing how p95-based hedging significantly reduces p99 latency with minimal extra load.
+Production AI: RAG evaluation, agentic systems, LLM ops. Benchmarks over claims.
 
-→ [Read more on engnotes.dev →](https://engnotes.dev)
+Java and JVM: concurrent and parallel system design, thread lifecycle management, lock-free data structures, and the virtual thread model through Java 25. The kindof Java that shows up in production incidents, not just tutorials.
 
----
+Serverless on AWS: Lambda SnapStart, Step Functions orchestration, Bedrock inference, CDK infrastructure as code.
 
-### Connect
-
-- **LinkedIn**: [linkedin.com/in/jagdishsal](https://www.linkedin.com/in/jagdishsal)
-- **Blog**: [engnotes.dev](https://engnotes.dev)
-- **Email**: jagdishsal@gmail.com
-- **GitHub**: [github.com/salgotraja](https://github.com/salgotraja)
+Observability-first design: systems that tell you what is
+wrong before users do.
 
 ---
 
-> _"Scalability isn’t just about handling load — it’s about clarity, composability, and enabling teams to move fast without breaking things."_
+## Open source
+
+**[financial-intelligence-platform](https://github.com/salgotraja/financial-intelligence-platform)**
+Production-grade serverless platform on AWS. Real-time market data ingestion via EventBridge and Step Functions, Bedrock Claude for LLM-generated insights, DynamoDB with TTL, S3 data
+lake, API Gateway with Cognito and DPDP consent management. 
+
+Java 25, Spring Boot, CDK.
+
+**[production-systems-labs](https://github.com/salgotraja/production-systems-labs)**
+Deterministic Java benchmarks for tail latency, queueing theory, hedged requests, coordinated omission, backpressure, and SLO
+engineering. Reproducible outputs, checked-in golden CSVs.
+
+**[agentic-ai-stress-suite](https://github.com/salgotraja/agentic-ai-stress-suite)**
+Production AI benchmarks across RAG evaluation, single and multi-agent workflows, LLM ops, and security guardrails.
+25,000 lines of annotated code with measured results.
+
+---
+
+## Latest writing
+
+- [The Coordinated Omission Problem](https://engnotes.dev/blog/tail-latency-system-behavior/part-4-the-coordinated-omission-problem?utm_source=github&utm_medium=social&utm_campaign=part-4-the-coordinated-omission-problem&utm_content=profile)
+  Jun 2026. Closed-loop vs open-loop benchmarking and why your load test lied about the pause.
+
+- [Hedged Requests and Speculative Execution](https://engnotes.dev/blog/tail-latency-system-behavior/part-3-hedged-requests-and-speculative-execution?utm_source=github&utm_medium=social&utm_campaign=part-3-hedged-requests&utm_content=profile)
+  Jun 2026. p95-based hedging that cuts p99 tail latency with less extra load than most teams expect.
+
+Read more at [engnotes.dev](https://engnotes.dev)
+
+---
+
+## Connect
+
+- LinkedIn: [linkedin.com/in/jagdishsal](https://www.linkedin.com/in/jagdishsal)
+- Blog: [engnotes.dev](https://engnotes.dev)
+- Email: jagdishsal@gmail.com
+
+---
+
+"The benchmark that hides the pause is more dangerous
+than the pause itself."
