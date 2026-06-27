@@ -17,7 +17,7 @@ Distributed systems and event-driven architecture, designing for failure modes, 
 
 Production AI: RAG evaluation, agentic systems, LLM ops. Benchmarks over claims.
 
-Java and JVM: concurrent and parallel system design, thread lifecycle management, lock-free data structures, and the virtual thread model through Java 25. The kindof Java that shows up in production incidents, not just tutorials.
+Java and JVM: concurrent and parallel system design, thread lifecycle management, lock-free data structures, and the virtual thread model through Java 25. The kind of Java that shows up in production incidents, not just tutorials.
 
 Serverless on AWS: Lambda SnapStart, Step Functions orchestration, Bedrock inference, CDK infrastructure as code.
 
