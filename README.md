@@ -46,6 +46,9 @@ Production AI benchmarks across RAG evaluation, single and multi-agent workflows
 
 ## Latest writing
 
+- [Backpressure Design Patterns](https://engnotes.dev/blog/tail-latency-system-behavior/part-5-backpressure-design-patterns?utm_source=github&utm_medium=social&utm_campaign=part-5-backpressure-design-patterns&utm_content=profile)
+  Jun 2026. Reject-fast policies (token bucket, rate limiter) hold p99 at 10ms; a bounded queue accepts fewer requests at a 500ms p99, because under sustained overload a buffer is the worst of both.
+
 - [The Coordinated Omission Problem](https://engnotes.dev/blog/tail-latency-system-behavior/part-4-the-coordinated-omission-problem?utm_source=github&utm_medium=social&utm_campaign=part-4-the-coordinated-omission-problem&utm_content=profile)
   Jun 2026. Closed-loop vs open-loop benchmarking and why your load test lied about the pause.
 
