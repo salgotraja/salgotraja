@@ -46,15 +46,14 @@ Production AI benchmarks across RAG evaluation, single and multi-agent workflows
 
 ## Latest writing
 
+- [Advanced Retrieval Under Measurement: Hybrid, Reranking & Metadata](https://engnotes.dev/blog/agentic-ai-stress-suite/part-2-advanced-retrieval-hybrid-reranking-metadata?utm_source=github&utm_medium=social&utm_campaign=part-2-advanced-retrieval-hybrid-reranking-metadata&utm_content=profile)
+  Sept 2026. Dense-only: 0.761 Recall@5 on 30 queries. Hybrid BM25+RRF drops to 0.744; FlashRank lifts MRR to 0.767.
+
+- [State-Aware RAG: Moving Beyond Top-K Retrieval](https://engnotes.dev/blog/agentic-ai-stress-suite/part-1-state-aware-rag-beyond-top-k-retrieval?utm_source=github&utm_medium=social&utm_campaign=part-1-state-aware-rag-beyond-top-k-retrieval&utm_content=profile)
+  Sept 2026. Naive RAG: 0.487 Recall@5 on 300 tech-docs queries. HyDE reaches 0.509 at 1.14x latency; decomposition drops to 0.477.
+
 - [Token Bucket vs Leaky Bucket](https://engnotes.dev/blog/backpressure-load-control/part-3-token-bucket-vs-leaky-bucket?utm_source=github&utm_medium=social&utm_campaign=part-3-token-bucket-vs-leaky-bucket&utm_content=profile)
   Aug 2026. Two gates, near-identical goodput at 47.8 and 48.0 rps. The downstream peak differs: 290 rps against 100 rps.
-
-- [Admission Control Design](https://engnotes.dev/blog/backpressure-load-control/part-2-admission-control-design?utm_source=github&utm_medium=social&utm_campaign=part-2-admission-control-design&utm_content=profile)
-  Aug 2026. A deterministic sweep: goodput peaks at an admission limit of capacity times deadline, then collapses eight slots later.
-
-- [Why Systems Collapse Under Load](https://engnotes.dev/blog/backpressure-load-control/part-1-why-systems-collapse-under-load?utm_source=github&utm_medium=social&utm_campaign=part-1-why-systems-collapse-under-load&utm_content=profile)
-  Jul 2026. 110 rps against 100 rps of capacity drops goodput to 42 rps, and retries make it worse. A deterministic Java model.
-
 
 Read more at [engnotes.dev](https://engnotes.dev)
 
