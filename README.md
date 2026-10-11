@@ -46,14 +46,17 @@ Production AI benchmarks across RAG evaluation, single and multi-agent workflows
 
 ## Latest writing
 
-- [Advanced Retrieval Under Measurement: Hybrid, Reranking & Metadata](https://engnotes.dev/blog/agentic-ai-stress-suite/part-2-advanced-retrieval-hybrid-reranking-metadata?utm_source=github&utm_medium=social&utm_campaign=part-2-advanced-retrieval-hybrid-reranking-metadata&utm_content=profile)
-  Sept 2026. Dense-only: 0.761 Recall@5 on 30 queries. Hybrid BM25+RRF drops to 0.744; FlashRank lifts MRR to 0.767.
+- [When 100% Agent Success Does Not Mean the Task Was Done](https://engnotes.dev/blog/agentic-ai-stress-suite/part-4-agent-success-flags-react-vs-plan-and-execute?utm_source=github&utm_medium=social&utm_campaign=part-4-agent-success-flags-react-vs-plan-and-execute&utm_content=profile)
+  Oct 2026. Plan-and-Execute reported success on all 84 gpt-oss trials. Only 48 of its answers held up against the tool evidence.
 
-- [State-Aware RAG: Moving Beyond Top-K Retrieval](https://engnotes.dev/blog/agentic-ai-stress-suite/part-1-state-aware-rag-beyond-top-k-retrieval?utm_source=github&utm_medium=social&utm_campaign=part-1-state-aware-rag-beyond-top-k-retrieval&utm_content=profile)
-  Sept 2026. Naive RAG: 0.487 Recall@5 on 300 tech-docs queries. HyDE reaches 0.509 at 1.14x latency; decomposition drops to 0.477.
+- [Two RAG Evaluators, Two Very Different Scores](https://engnotes.dev/blog/agentic-ai-stress-suite/part-3-rag-evaluation-beyond-recall-at-5?utm_source=github&utm_medium=social&utm_campaign=part-3-rag-evaluation-beyond-recall-at-5&utm_content=profile)
+  Oct 2026. RAGAS scores 30 naive RAG answers at 0.370 correctness. A gpt-4o-mini judge scores the same answers 0.887.
 
-- [Token Bucket vs Leaky Bucket](https://engnotes.dev/blog/backpressure-load-control/part-3-token-bucket-vs-leaky-bucket?utm_source=github&utm_medium=social&utm_campaign=part-3-token-bucket-vs-leaky-bucket&utm_content=profile)
-  Aug 2026. Two gates, near-identical goodput at 47.8 and 48.0 rps. The downstream peak differs: 290 rps against 100 rps.
+- [Dense vs Hybrid Retrieval: Measuring What Each Layer Adds](https://engnotes.dev/blog/agentic-ai-stress-suite/part-2-advanced-retrieval-hybrid-reranking-metadata?utm_source=github&utm_medium=social&utm_campaign=part-2-advanced-retrieval-hybrid-reranking-metadata&utm_content=profile)
+  Sept 2026. Dense-only: 0.739 MRR on 30 queries. Hybrid BM25+RRF lifts it to 0.794. FlashRank adds 0.7 s and no ranking gain.
+
+- [Do HyDE and Query Decomposition Improve RAG Retrieval?](https://engnotes.dev/blog/agentic-ai-stress-suite/part-1-state-aware-rag-beyond-top-k-retrieval?utm_source=github&utm_medium=social&utm_campaign=part-1-state-aware-rag-beyond-top-k-retrieval&utm_content=profile)
+  Sept 2026. On 142 questions, HyDE's recall gain over dense retrieval remains uncertain. Decomposition lowers top-1 retrieval.
 
 Read more at [engnotes.dev](https://engnotes.dev)
 
